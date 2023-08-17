@@ -1,0 +1,72 @@
+.header-container{
+    height: 90vh;
+    background: url(../../../public/imgs/slide-4.jpg)  no-repeat center;
+    position: relative;
+}
+
+.cloud-bg-section{
+    background: url(../../../public/imgs/cloud-bg.png) no-repeat center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+}
+
+.header-container div:nth-child(2){
+    background: url(../../../public/imgs/transparent-bg.png) no-repeat center;
+    padding-bottom: 6rem;
+}
+
+.header-container div:nth-child(2) span{
+    color: orangered;
+}
+
+.header-container div:nth-child(2) h1{
+  font-size: 4rem;
+}
+
+
+/* navbar */
+.navbar-container{
+    background: #000000c6;
+}
+
+.navbar-container img{
+  width: 150px;
+  position: absolute;
+  top: 0;
+  right: 8rem;
+  cursor: pointer;
+}
+
+.navbar-container ul{
+    list-style: none;
+    direction: rtl;
+    width: 50%;
+}
+
+.navbar-container ul li{
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.navbar-container li:hover{
+    color: orangered;
+}
+
+.icon-navbar a{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orangered;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+       text-decoration: none;
+    color: white !important; 
+    transition: all 0.4s ease;
+}
+.icon-navbar a:hover{
+    background: white;
+    color: orangered !important;
+}
