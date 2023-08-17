@@ -1,10 +1,10 @@
-.header-container{
+.header-container {
     height: 90vh;
-    background: url(../../../public/imgs/slide-4.jpg)  no-repeat center;
+    background: url(../../../public/imgs/slide-4.jpg) no-repeat center;
     position: relative;
 }
 
-.cloud-bg-section{
+.cloud-bg-section {
     background: url(../../../public/imgs/cloud-bg.png) no-repeat center;
     width: 100%;
     position: absolute;
@@ -12,61 +12,83 @@
     height: 100px;
 }
 
-.header-container div:nth-child(2){
+.header-container div:nth-child(2) {
     background: url(../../../public/imgs/transparent-bg.png) no-repeat center;
     padding-bottom: 6rem;
 }
 
-.header-container div:nth-child(2) span{
+.header-container div:nth-child(2) span {
     color: orangered;
 }
 
-.header-container div:nth-child(2) h1{
-  font-size: 4rem;
+.header-container div:nth-child(2) h1 {
+    font-size: 4rem;
 }
 
-
-/* navbar */
-.navbar-container{
+/*for navbar */
+.navbar-container {
     background: #000000c6;
 }
 
-.navbar-container img{
-  width: 150px;
-  position: absolute;
-  top: 0;
-  right: 8rem;
-  cursor: pointer;
+.navbar-container img {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    cursor: pointer;
 }
 
-.navbar-container ul{
+.navbar-container ul {
     list-style: none;
     direction: rtl;
     width: 50%;
 }
 
-.navbar-container ul li{
+.navbar-container ul li {
     cursor: pointer;
     transition: all 0.4s ease;
 }
 
-.navbar-container li:hover{
+.navbar-container li:hover {
     color: orangered;
 }
 
-.icon-navbar a{
-     display: flex;
+.icon-navbar a {
+    display: flex;
     justify-content: center;
     align-items: center;
     background: orangered;
-    width:50px;
+    width: 50px;
     height: 50px;
     border-radius: 50%;
-       text-decoration: none;
-    color: white !important; 
+    text-decoration: none;
+    color: white !important;
     transition: all 0.4s ease;
 }
-.icon-navbar a:hover{
+.icon-navbar a:hover {
     background: white;
     color: orangered !important;
+}
+
+.navbar-container > i {
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 950px) {
+    .navbar-container img {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-container div:nth-child(2) h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header-container div:nth-child(2) h1 {
+        font-size: 2.5rem;
+    }
 }
