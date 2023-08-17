@@ -1,0 +1,42 @@
+.about-container .col-lg-6:nth-child(2) {
+   direction: rtl;
+}
+
+.about-container .col-lg-6:nth-child(2) h1 {
+   color: orangered;
+   font-size: 3rem;
+}
+
+.about-container .col-lg-6:nth-child(2) span {
+   background: rgb(55, 55, 55);
+   width: 50px;
+   height: 50px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   color: white;
+   margin-left: 1rem;
+}
+
+.about-container .col-lg-6:nth-child(2) button {
+   background: orangered;
+   color: white;
+   box-shadow: 5px 5px 0px -1px #cdcdcd;
+}
+
+@media screen and (max-width: 400px) {
+   .about-container .col-lg-6:nth-child(2) h1 {
+      font-size: 2rem;
+   }
+
+   .about-container .col-lg-6:nth-child(2) span {
+      width: 40px;
+      height: 40px;
+   }
+   .about-container .col-lg-6:nth-child(2) ul {
+      padding: 0;
+   }
+
+
+}
