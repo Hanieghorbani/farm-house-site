@@ -1,0 +1,40 @@
+.prices-container{
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.prices-container table{
+    direction: rtl;
+}
+
+.prices-container .col-lg-7{
+    direction: rtl;
+}
+
+.prices-container .col-lg-7 h1{
+    color: orangered;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.prices-container .col-lg-7 p{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.prices-container .col-lg-7 button{
+    box-shadow: 5px 5px 1px -1px rgb(187, 187, 187);
+    transition: all .4s ease;
+}
+
+.prices-container .col-lg-7 button:hover{
+    background: orangered !important;
+    border-color: orangered !important;
+}
+
+@media screen and (max-width:400px){
+    .prices-container .col-lg-7 h1{
+        font-size: 2rem;
+        
+    }
+    
+}

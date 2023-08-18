@@ -1,0 +1,63 @@
+.gallery-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.725),rgba(0, 0, 0, 0.751)),url(../../../public/imgs/product-gallery-bg.png) no-repeat center;
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+
+.gallery-container h1{
+    font-size: 3rem;
+    font-weight: bold;
+    background:url(../../../public/imgs/project-title.png) no-repeat center center;
+}
+
+.gallery-container ul{
+    direction: rtl;
+    width: 40%;
+}
+
+.gallery-container li:nth-child(1){
+    color: orangered !important;
+}
+
+.gallery-container li{
+    font-size: 1.1rem;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.gallery-container li:hover{
+    color: orangered;
+}
+
+
+/* card gallery */
+.cardGallery-container{
+    cursor: pointer;
+}
+
+.cardGallery-container div{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 1px -1px #575757;
+}
+
+@media screen and (max-width:800px){
+    .cardGallery-container div{
+        width: 100%;
+        height: 100%;
+    }
+    .gallery-container ul{
+        padding-right: 0;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .gallery-container ul{
+        padding-right: 0;
+        width: 90%;
+    }
+}
