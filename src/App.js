@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Products from './components/products/Products';
 import Prices from './components/prices/Prices';
 import Gallery from './components/gallery/Gallery';
+import Questions from './components/questions/Questions';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
      <Products />
      <Prices />
      <Gallery />
+     <Questions />
     </div>
   );
 }

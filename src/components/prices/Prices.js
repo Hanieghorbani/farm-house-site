@@ -32,7 +32,7 @@ export default function Prices() {
           این قیمت ها بدون اطلاع قبلی تغییر می کنند. تصاویر نشان داده شده از وب
           سایت کاتالوگ دانه است.
         </p>
-        <button className="btn btn-dark mt-5 w-25 w-lg-50 align-self-end">تماس با ما</button>
+        <button className="btn btn-dark mt-5 mx-auto w-50 w-lg-50 align-self-end">تماس با ما</button>
       </div>
     </div>
   )
