@@ -4,7 +4,7 @@ export default function Gallery() {
   return (
     <div className="gallery-container text-white d-flex align-items-center flex-column">
       <h1>گالری محصول</h1>
-      <ul className="list-unstyled d-flex justify-content-between align-items-center">
+      <ul className="list-unstyled d-flex justify-content-between align-items-center mt-4">
         <li>همه</li>
         <li>سبزیجات </li>
         <li>میوه ها</li>
