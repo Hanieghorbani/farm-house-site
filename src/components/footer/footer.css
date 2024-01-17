@@ -1,0 +1,94 @@
+.footer-container{
+    padding-top: 5rem;
+    background: #39393a!important;
+}
+
+.footer-container h1{
+    background: url(../../../public/imgs/project-title.png) no-repeat center center;
+}
+.footer-container .form-select{
+    background: #39393a;
+    color: white;
+    font-size: 0.8rem;
+    direction: rtl;
+    border: 1px solid rgb(138 138 138);
+}
+
+.footer-container .form-select option{
+    background: #39393a;
+}
+
+.footer-container .form-select:focus{
+    box-shadow: none !important;
+    border:  1px solid rgb(138 138 138) !important;
+}
+
+.footer-container .bi-chevron-down{
+    top: 16%;
+    right: 2%;
+    color: white;
+}
+
+.footer-container button{
+    background: orangered;
+    color: white;
+    padding: 10px 25px;
+    font-size: large;
+    margin-right: 9%;
+}
+
+.input-footer{
+    background: transparent;
+    outline: none;
+    border: 1px solid rgb(138 138 138);
+    width: 100%;
+    direction: rtl;
+    border-radius: 4px;
+    margin-top: 15px;
+    padding: 10px;
+    color: white;
+}
+.input-footer::placeholder{
+    color: white;
+}
+
+.copy-sec{
+    padding: 1.5rem 0;
+    direction: rtl;
+    text-align: center;
+    margin-top: 3rem;
+    background: #000;
+}
+
+.copy-sec span{
+    color: orangered;
+}
+
+
+/* for card footer */
+.cardFooter-container{
+   background: rgb(27, 27, 27);
+   direction: rtl;
+   padding: 1.5rem 0;
+   border-radius: 15px;
+}
+
+.cardFooter-container p:hover {
+   color: orangered !important;
+}
+
+.cardFooter-container div:nth-child(2){
+    width: 60px;
+    height: 60px;
+    background: white;
+    color: black !important;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.cardFooter-container div:nth-child(2) i{
+   font-size: 1.7rem;
+}
+

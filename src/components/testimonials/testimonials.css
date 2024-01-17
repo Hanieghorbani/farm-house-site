@@ -1,0 +1,20 @@
+.testimonials-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.784),rgba(0, 0, 0, 0.591)),url(../../../public/imgs/testimonial-bg.jpg) no-repeat center center /cover; 
+    background-attachment: fixed;
+    direction: rtl;
+    padding: 7rem 0;
+    margin-top: 5rem;
+}
+
+.testimonials-container button{
+    background: orangered;
+    padding: 20px 40px;
+    color: white;
+    font-size: 1.5rem;
+    transition: all .4s ease;
+}
+
+.testimonials-container button:hover{
+    background: white;
+    color: orangered;
+}

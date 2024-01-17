@@ -1,0 +1,19 @@
+.sponsor-contianer{
+    margin: 7rem 0;
+}
+
+.sponsor-contianer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsor-contianer img{
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.sponsor-contianer img:hover{
+    opacity: 1;
+}

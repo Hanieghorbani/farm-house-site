@@ -1,0 +1,25 @@
+.questions-container{
+    margin-top: 10rem;
+}
+
+.questions-container h1{
+  font-size: 3rem;
+  color: orangered;
+  font-weight: bold;
+}
+
+.accordion-container{
+    cursor: pointer;
+    direction: rtl;
+}
+
+.bi-chevron-right{
+    background: orangered;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
